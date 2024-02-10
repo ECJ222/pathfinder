@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+main {
+  padding: 16px;
+}
+
+.game-board {
+  position: relative;
+  width: 85vw;
+  height: 75vh;
+  border: 1px solid;
+  background-color: $white;
+}
+
+.game-buttons {
+  margin: 14px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.game-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: $grey-color-100;
+  color: $white;
+  cursor: pointer;
+}

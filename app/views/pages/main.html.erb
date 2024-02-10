@@ -1,0 +1,26 @@
+<main>
+  <div class="game-board">
+  </div>
+  <div class="game-buttons">
+    <%= button_tag type: 'button', class: 'game-button', data: { action: 'ArrowUp' } do %>
+      <i class="material-symbols-outlined">
+        arrow_upward
+      </i>
+    <% end %>
+    <%= button_tag type: 'button', class: 'game-button', data: { action: 'ArrowDown' } do %>
+      <i class="material-symbols-outlined">
+        arrow_downward
+      </i>
+    <% end %>
+    <%= button_tag type: 'button', class: 'game-button', data: { action: 'ArrowLeft' } do %>
+      <i class="material-symbols-outlined">
+        arrow_back
+      </i>
+    <% end %>
+    <%= button_tag type: 'button', class: 'game-button', data: { action: 'ArrowRight' } do %>
+      <i class="material-symbols-outlined">
+        arrow_forward
+      </i>
+    <% end %>
+  </div>
+</main>
